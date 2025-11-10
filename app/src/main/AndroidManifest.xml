@@ -42,10 +42,6 @@
             </intent-filter>
         </activity>
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="" />
-
         <service
             android:name=".StepTrackingService"
             android:exported="false"
