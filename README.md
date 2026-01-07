@@ -4,12 +4,12 @@ A comprehensive Android fitness tracking application that monitors your steps, d
 
 ## Features
 
-- 📱 Real-time step counting
-- 🗺️ GPS route tracking with Google Maps
-- 📊 Session history and statistics
-- 🔥 Calorie tracking
-- ⏱️ Duration and speed monitoring
-- 💾 Local database storage with Room
+- Real-time step counting
+- GPS route tracking with Google Maps
+- Session history and statistics
+- Calorie tracking
+- Duration and speed monitoring
+- Local database storage with Room
 
 ## Setup Instructions
 
@@ -86,11 +86,11 @@ All 46+ unit tests using JUnit and Mockito.
 ## CI/CD Pipeline
 
 The GitHub Actions workflow automatically:
-- ✅ Builds the app
-- ✅ Runs all unit tests
-- ✅ Performs lint checks
-- ✅ Generates debug APK
-- ✅ Validates project structure
+- Builds the app
+- Runs all unit tests
+- Performs lint checks
+- Generates debug APK
+- Validates project structure
 
 ## Permissions Required
 
@@ -135,7 +135,7 @@ app/
 
 ## Security Note
 
-⚠️ **Never commit API keys to version control!**
+**Never commit API keys to version control!**
 
 - API keys are stored in `local.properties` (gitignored)
 - CI/CD uses GitHub Secrets
